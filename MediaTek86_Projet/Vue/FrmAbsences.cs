@@ -1,0 +1,25 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace MediaTek86_Projet.Vue
+{
+    public partial class FrmAbsences : Form
+    {
+        public FrmAbsences()
+        {
+            InitializeComponent();
+        }
+
+        private void dgvAbsences_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+    }
+}
