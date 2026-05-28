@@ -10,8 +10,14 @@ using System.Windows.Forms;
 
 namespace MediaTek86_Projet.Vue
 {
+    /// <summary>
+    /// Fenêtre de connexion
+    /// </summary>
     public partial class FrmConnexion : Form
     {
+        /// <summary>
+        /// Initialise la fenêtre
+        /// </summary>
         public FrmConnexion()
         {
             InitializeComponent();

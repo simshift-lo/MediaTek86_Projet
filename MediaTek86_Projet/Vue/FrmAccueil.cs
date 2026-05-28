@@ -10,8 +10,14 @@ using System.Windows.Forms;
 
 namespace MediaTek86_Projet.Vue
 {
+    /// <summary>
+    /// Fenêtre d'accueil
+    /// </summary>
     public partial class FrmAccueil : Form
     {
+        /// <summary>
+        /// Initialise la fenêtre
+        /// </summary>
         public FrmAccueil()
         {
             InitializeComponent();

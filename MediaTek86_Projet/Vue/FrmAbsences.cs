@@ -10,8 +10,14 @@ using System.Windows.Forms;
 
 namespace MediaTek86_Projet.Vue
 {
+    /// <summary>
+    /// Fenêtre de liste des absences
+    /// </summary>
     public partial class FrmAbsences : Form
     {
+        /// <summary>
+        /// Initialise la fenêtre
+        /// </summary>
         public FrmAbsences()
         {
             InitializeComponent();

@@ -10,8 +10,14 @@ using System.Windows.Forms;
 
 namespace MediaTek86_Projet
 {
+    /// <summary>
+    /// Fenêtre principale
+    /// </summary>
     public partial class Form1 : Form
     {
+        /// <summary>
+        /// Initialise la fenêtre
+        /// </summary>
         public Form1()
         {
             InitializeComponent();
