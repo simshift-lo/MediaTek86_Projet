@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2026.3.29.0" projectFile="C:\Users\eliot\source\repos\MediaTek86_Projet\MediaTek86_Projet\documentation\MediaTek86_Projet_Doc.shfbproj" started="5/28/2026 3:55:39 AM">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2026.3.29.0" projectFile="C:\Users\eliot\source\repos\MediaTek86_Projet\MediaTek86_Projet\documentation\MediaTek86_Projet_Doc.shfbproj" started="5/28/2026 7:17:56 PM">
 <buildStep step="Initializing">
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder&#39;
 Locating components in the following folder(s):
@@ -25,18 +25,18 @@ Copying XML comments files
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
-    Last step completed in 00:00:00.0015
+    Last step completed in 00:00:00.0045
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0090
+    Last step completed in 00:00:00.0145
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
-[C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-705e206d-cb10-4698-a71c-e7be5719b002.proj]
-Build started 5/28/2026 3:55:39 AM.
+[C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-cc1f747b-1e9e-4eb3-8b8b-466c3daaafbe.proj]
+Build started 5/28/2026 7:18:01 PM.
 
-Project &quot;C:\Users\eliot\source\repos\MediaTek86_Projet\MediaTek86_Projet\documentation\Help\Working\GenerateRefInfo-705e206d-cb10-4698-a71c-e7be5719b002.proj&quot; on node 1 (default targets).
+Project &quot;C:\Users\eliot\source\repos\MediaTek86_Projet\MediaTek86_Projet\documentation\Help\Working\GenerateRefInfo-cc1f747b-1e9e-4eb3-8b8b-466c3daaafbe.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
 GenerateRefInfo:
@@ -49,32 +49,32 @@ GenerateRefInfo:
   Using framework redirect &#39;System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&#39; in place of &#39;System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&#39;
   Using framework redirect &#39;System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39; in place of &#39;System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39;
   Using framework redirect &#39;Accessibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39; in place of &#39;Accessibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39;
-  Wrote information on 5 namespaces, 13 types, and 38 members
+  Wrote information on 6 namespaces, 16 types, and 57 members
   Merging duplicate type and member information
   Merged 0 duplicate type(s) and 0 duplicate member(s)
-Done Building Project &quot;C:\Users\eliot\source\repos\MediaTek86_Projet\MediaTek86_Projet\documentation\Help\Working\GenerateRefInfo-705e206d-cb10-4698-a71c-e7be5719b002.proj&quot; (default targets).
-    Last step completed in 00:00:00.7433
+Done Building Project &quot;C:\Users\eliot\source\repos\MediaTek86_Projet\MediaTek86_Projet\documentation\Help\Working\GenerateRefInfo-cc1f747b-1e9e-4eb3-8b8b-466c3daaafbe.proj&quot; (default targets).
+    Last step completed in 00:00:02.0031
 </buildStep>
 <buildStep step="ApplyDocumentModel">
 Applying document model to reflection output...
-    Last step completed in 00:00:00.2586
+    Last step completed in 00:00:00.2977
 </buildStep>
 <buildStep step="AddApiTopicFilenames">
 Adding topic filenames to API members...
-    Last step completed in 00:00:00.2921
+    Last step completed in 00:00:00.2876
 </buildStep>
 <buildStep step="GenerateApiTopicManifest">
 Generating API topic manifest...
-    Last step completed in 00:00:00.2751
+    Last step completed in 00:00:00.3031
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0500
+    Last step completed in 00:00:00.0667
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0020
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
@@ -83,22 +83,22 @@ Merging conceptual and additional tables of contents...
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file for API content...
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.0630
+    Last step completed in 00:00:00.0733
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
-    Last step completed in 00:00:00.1521
+    Last step completed in 00:00:00.4722
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0010
+    Last step completed in 00:00:00.0306
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 C:\Users\eliot\source\repos\MediaTek86_Projet\MediaTek86_Projet\documentation\Help\Working\BuildAssembler.config
   Updating reference topic configurations.
   No conceptual content.  Removing conceptual content components.
-    Last step completed in 00:00:00.0155
+    Last step completed in 00:00:00.0237
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
@@ -107,6 +107,27 @@ Loading table of contents info for client-side TOC
 </plugIn>Loading configuration...
 Processing topics...
 SHFB: Warning BE0066: ShowMissingComponent: [N:MediaTek86_Projet.bddmanager] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:MediaTek86_Projet.Controleur] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86_Projet.Controleur.ControleAbsence.AbsenceChevauche(MediaTek86_Projet.Modele.Absence)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86_Projet.Controleur.ControleAbsence.AbsenceChevauche(MediaTek86_Projet.Modele.Absence)] Missing &lt;param name=&quot;absence&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86_Projet.Controleur.ControleAbsence.AbsenceChevaucheModification(MediaTek86_Projet.Modele.Absence,MediaTek86_Projet.Modele.Absence)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86_Projet.Controleur.ControleAbsence.AbsenceChevaucheModification(MediaTek86_Projet.Modele.Absence,MediaTek86_Projet.Modele.Absence)] Missing &lt;param name=&quot;ancienneAbsence&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86_Projet.Controleur.ControleAbsence.AbsenceChevaucheModification(MediaTek86_Projet.Modele.Absence,MediaTek86_Projet.Modele.Absence)] Missing &lt;param name=&quot;absence&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86_Projet.Controleur.ControleAbsence.AjouterAbsence(MediaTek86_Projet.Modele.Absence)] Missing &lt;param name=&quot;absence&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86_Projet.Controleur.ControleAbsence.GetLesAbsences(System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86_Projet.Controleur.ControleAbsence.GetLesAbsences(System.Int32)] Missing &lt;param name=&quot;idpersonnel&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86_Projet.Controleur.ControleAbsence.GetLesMotifs] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86_Projet.Controleur.ControleAbsence.ModifierAbsence(MediaTek86_Projet.Modele.Absence,MediaTek86_Projet.Modele.Absence)] Missing &lt;param name=&quot;ancienneAbsence&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86_Projet.Controleur.ControleAbsence.ModifierAbsence(MediaTek86_Projet.Modele.Absence,MediaTek86_Projet.Modele.Absence)] Missing &lt;param name=&quot;absence&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86_Projet.Controleur.ControleAbsence.SupprimerAbsence(MediaTek86_Projet.Modele.Absence)] Missing &lt;param name=&quot;absence&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86_Projet.Controleur.ControleConnexion.ControleAuthentification(System.String,System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86_Projet.Controleur.ControleConnexion.ControleAuthentification(System.String,System.String)] Missing &lt;param name=&quot;login&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86_Projet.Controleur.ControleConnexion.ControleAuthentification(System.String,System.String)] Missing &lt;param name=&quot;pwd&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86_Projet.Controleur.ControlePersonnel.AjouterPersonnel(MediaTek86_Projet.Modele.Personnel)] Missing &lt;param name=&quot;personnel&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86_Projet.Controleur.ControlePersonnel.GetLesPersonnels] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86_Projet.Controleur.ControlePersonnel.GetLesServices] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86_Projet.Controleur.ControlePersonnel.ModifierPersonnel(MediaTek86_Projet.Modele.Personnel)] Missing &lt;param name=&quot;personnel&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86_Projet.Controleur.ControlePersonnel.SupprimerPersonnel(MediaTek86_Projet.Modele.Personnel)] Missing &lt;param name=&quot;personnel&quot;/&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [N:MediaTek86_Projet.dal] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86_Projet.dal.Access.GetInstance] Missing &lt;returns&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [N:MediaTek86_Projet.Modele] Missing &lt;summary&gt; documentation
@@ -127,13 +148,18 @@ SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86_Projet.Modele.Responsa
 SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86_Projet.Modele.Service.#ctor(System.Int32,System.String)] Missing &lt;param name=&quot;idservice&quot;/&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86_Projet.Modele.Service.#ctor(System.Int32,System.String)] Missing &lt;param name=&quot;nom&quot;/&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [N:MediaTek86_Projet.Vue] Missing &lt;summary&gt; documentation
-Processed 93 topic(s)
-21 warning(s)
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86_Projet.Vue.FrmAbsence.#ctor(MediaTek86_Projet.Modele.Personnel)] Missing &lt;param name=&quot;personnel&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86_Projet.Vue.FrmAbsence.#ctor(MediaTek86_Projet.Modele.Personnel,MediaTek86_Projet.Modele.Absence)] Missing &lt;param name=&quot;personnel&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86_Projet.Vue.FrmAbsence.#ctor(MediaTek86_Projet.Modele.Personnel,MediaTek86_Projet.Modele.Absence)] Missing &lt;param name=&quot;absence&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86_Projet.Vue.FrmAbsences.#ctor(MediaTek86_Projet.Modele.Personnel)] Missing &lt;param name=&quot;personnel&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86_Projet.Vue.FrmPersonnel.#ctor(MediaTek86_Projet.Modele.Personnel)] Missing &lt;param name=&quot;personnel&quot;/&gt; documentation
+Processed 122 topic(s)
+47 warning(s)
 CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 3 of 15.
 CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 4 of 30.
 <plugIn name="Compact Table of Contents Generator" behavior="After" priority="1000">
 Generating website TOC information
-</plugIn>    Last step completed in 00:00:05.3441
+</plugIn>    Last step completed in 00:00:08.7208
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -178,26 +204,26 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Themed
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Themed2026\webfonts\fa-v4compatibility.woff2 -&gt; C:\Users\eliot\source\repos\MediaTek86_Projet\MediaTek86_Projet\documentation\Help\Working\Output\Website\webfonts\fa-v4compatibility.woff2
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Themed2026\RootWebsiteContent\index.html -&gt; C:\Users\eliot\source\repos\MediaTek86_Projet\MediaTek86_Projet\documentation\Help\Working\Output\Website\index.html
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Themed2026\RootWebsiteContent\search.html -&gt; C:\Users\eliot\source\repos\MediaTek86_Projet\MediaTek86_Projet\documentation\Help\Working\Output\Website\search.html
-    Last step completed in 00:00:00.0886
+    Last step completed in 00:00:00.7390
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
-    Last step completed in 00:00:01.3575
+    Last step completed in 00:00:01.6824
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
 
-Copied 137 files for the website content
-    Last step completed in 00:00:00.1666
+Copied 166 files for the website content
+    Last step completed in 00:00:00.2340
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.0500
+    Last step completed in 00:00:00.0557
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 5/28/2026 3:55:48 AM.  Total time: 00:00:09.2493
+Build completed successfully at 5/28/2026 7:18:16 PM.  Total time: 00:00:19.6221
 
 </buildStep>
 </shfbBuild>

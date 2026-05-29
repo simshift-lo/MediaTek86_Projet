@@ -97,13 +97,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="bddmanager\BddManager.cs" />
+    <Compile Include="Controleur\ControleAbsence.cs" />
+    <Compile Include="Controleur\ControleConnexion.cs" />
+    <Compile Include="Controleur\ControlePersonnel.cs" />
     <Compile Include="dal\Access.cs" />
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
     <Compile Include="Modele\Absence.cs" />
     <Compile Include="Modele\Motif.cs" />
     <Compile Include="Modele\Personnel.cs" />
@@ -180,8 +177,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Controleur\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,12 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using MediaTek86_Projet.Controleur;
 
 namespace MediaTek86_Projet.Vue
 {
@@ -34,6 +28,38 @@ namespace MediaTek86_Projet.Vue
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+        /// <summary>
+        /// Connexion de l'utilisateur
+        /// </summary>
+        private void btnConnexion_Click(object sender, EventArgs e)
+        {
+            string login = txtLogin.Text.Trim();
+            string pwd = txtPwd.Text.Trim();
+
+            if (login == "" || pwd == "")
+            {
+                MessageBox.Show("Veuillez renseigner le login et le mot de passe.");
+                return;
+            }
+
+            ControleConnexion controle = new ControleConnexion();
+
+            if (controle.ControleAuthentification(login, pwd))
+            {
+                FrmAccueil frmAccueil = new FrmAccueil();
+                frmAccueil.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Login ou mot de passe incorrect.");
+            }
+        }
+
+        private void txtPwd_TextChanged(object sender, EventArgs e)
         {
 
         }

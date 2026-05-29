@@ -34,7 +34,6 @@
             this.colPrenom = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colTel = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colMail = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colService = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnAjouterPersonnel = new System.Windows.Forms.Button();
             this.btnModifierPersonnel = new System.Windows.Forms.Button();
             this.btnSupprimerPersonnel = new System.Windows.Forms.Button();
@@ -45,26 +44,30 @@
             // lblTitre
             // 
             this.lblTitre.AutoSize = true;
-            this.lblTitre.Location = new System.Drawing.Point(45, 44);
+            this.lblTitre.Location = new System.Drawing.Point(45, 23);
+            this.lblTitre.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblTitre.Name = "lblTitre";
-            this.lblTitre.Size = new System.Drawing.Size(139, 20);
+            this.lblTitre.Size = new System.Drawing.Size(93, 13);
             this.lblTitre.TabIndex = 0;
             this.lblTitre.Text = "Liste du personnel";
+            this.lblTitre.Click += new System.EventHandler(this.lblTitre_Click);
             // 
             // dgvPersonnel
             // 
+            this.dgvPersonnel.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvPersonnel.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvPersonnel.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.colNom,
             this.colPrenom,
             this.colTel,
-            this.colMail,
-            this.colService});
-            this.dgvPersonnel.Location = new System.Drawing.Point(49, 99);
+            this.colMail});
+            this.dgvPersonnel.Location = new System.Drawing.Point(48, 73);
+            this.dgvPersonnel.Margin = new System.Windows.Forms.Padding(2);
             this.dgvPersonnel.Name = "dgvPersonnel";
             this.dgvPersonnel.RowTemplate.Height = 28;
-            this.dgvPersonnel.Size = new System.Drawing.Size(627, 359);
+            this.dgvPersonnel.Size = new System.Drawing.Size(540, 210);
             this.dgvPersonnel.TabIndex = 1;
+            this.dgvPersonnel.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvPersonnel_CellContentClick);
             // 
             // colNom
             // 
@@ -86,59 +89,66 @@
             this.colMail.HeaderText = "Mail";
             this.colMail.Name = "colMail";
             // 
-            // colService
-            // 
-            this.colService.HeaderText = "Service";
-            this.colService.Name = "colService";
-            // 
             // btnAjouterPersonnel
             // 
-            this.btnAjouterPersonnel.Location = new System.Drawing.Point(49, 486);
+            this.btnAjouterPersonnel.Location = new System.Drawing.Point(48, 297);
+            this.btnAjouterPersonnel.Margin = new System.Windows.Forms.Padding(2);
             this.btnAjouterPersonnel.Name = "btnAjouterPersonnel";
-            this.btnAjouterPersonnel.Size = new System.Drawing.Size(99, 28);
+            this.btnAjouterPersonnel.Size = new System.Drawing.Size(70, 24);
             this.btnAjouterPersonnel.TabIndex = 2;
             this.btnAjouterPersonnel.Text = "Ajouter";
             this.btnAjouterPersonnel.UseVisualStyleBackColor = true;
+            this.btnAjouterPersonnel.Click += new System.EventHandler(this.btnAjouterPersonnel_Click);
             // 
             // btnModifierPersonnel
             // 
-            this.btnModifierPersonnel.Location = new System.Drawing.Point(154, 486);
+            this.btnModifierPersonnel.Location = new System.Drawing.Point(122, 297);
+            this.btnModifierPersonnel.Margin = new System.Windows.Forms.Padding(2);
             this.btnModifierPersonnel.Name = "btnModifierPersonnel";
-            this.btnModifierPersonnel.Size = new System.Drawing.Size(96, 28);
+            this.btnModifierPersonnel.Size = new System.Drawing.Size(68, 24);
             this.btnModifierPersonnel.TabIndex = 3;
             this.btnModifierPersonnel.Text = "Modifier";
             this.btnModifierPersonnel.UseVisualStyleBackColor = true;
+            this.btnModifierPersonnel.Click += new System.EventHandler(this.btnModifierPersonnel_Click);
             // 
             // btnSupprimerPersonnel
             // 
-            this.btnSupprimerPersonnel.Location = new System.Drawing.Point(256, 486);
+            this.btnSupprimerPersonnel.Location = new System.Drawing.Point(194, 297);
+            this.btnSupprimerPersonnel.Margin = new System.Windows.Forms.Padding(2);
             this.btnSupprimerPersonnel.Name = "btnSupprimerPersonnel";
-            this.btnSupprimerPersonnel.Size = new System.Drawing.Size(97, 28);
+            this.btnSupprimerPersonnel.Size = new System.Drawing.Size(69, 24);
             this.btnSupprimerPersonnel.TabIndex = 4;
             this.btnSupprimerPersonnel.Text = "Supprimer";
             this.btnSupprimerPersonnel.UseVisualStyleBackColor = true;
+            this.btnSupprimerPersonnel.Click += new System.EventHandler(this.btnSupprimerPersonnel_Click);
             // 
             // btnAbsences
             // 
-            this.btnAbsences.Location = new System.Drawing.Point(359, 486);
+            this.btnAbsences.Location = new System.Drawing.Point(267, 297);
+            this.btnAbsences.Margin = new System.Windows.Forms.Padding(2);
             this.btnAbsences.Name = "btnAbsences";
-            this.btnAbsences.Size = new System.Drawing.Size(94, 26);
+            this.btnAbsences.Size = new System.Drawing.Size(63, 24);
             this.btnAbsences.TabIndex = 5;
             this.btnAbsences.Text = "Absences";
             this.btnAbsences.UseVisualStyleBackColor = true;
+            this.btnAbsences.Click += new System.EventHandler(this.btnAbsences_Click);
             // 
             // FrmAccueil
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(963, 734);
+            this.ClientSize = new System.Drawing.Size(784, 461);
             this.Controls.Add(this.btnAbsences);
             this.Controls.Add(this.btnSupprimerPersonnel);
             this.Controls.Add(this.btnModifierPersonnel);
             this.Controls.Add(this.btnAjouterPersonnel);
             this.Controls.Add(this.dgvPersonnel);
             this.Controls.Add(this.lblTitre);
+            this.Margin = new System.Windows.Forms.Padding(2);
+            this.MaximumSize = new System.Drawing.Size(800, 500);
+            this.MinimumSize = new System.Drawing.Size(800, 500);
             this.Name = "FrmAccueil";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmAccueil";
             ((System.ComponentModel.ISupportInitialize)(this.dgvPersonnel)).EndInit();
             this.ResumeLayout(false);
@@ -150,14 +160,13 @@
 
         private System.Windows.Forms.Label lblTitre;
         private System.Windows.Forms.DataGridView dgvPersonnel;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colNom;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colPrenom;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colTel;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colMail;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colService;
         private System.Windows.Forms.Button btnAjouterPersonnel;
         private System.Windows.Forms.Button btnModifierPersonnel;
         private System.Windows.Forms.Button btnSupprimerPersonnel;
         private System.Windows.Forms.Button btnAbsences;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colNom;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colPrenom;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colTel;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colMail;
     }
 }
