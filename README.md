@@ -6,7 +6,7 @@ Application réalisée en C# WinForms pour MediaTek86.
 
 Le projet consiste à créer une application de gestion pour une médiathèque.
 
-L’application permet à un responsable de gérer le personnel et leurs absences.
+L’application permet à un responsable de gérer le personnel et les absences.
 
 ## Fonctionnalités
 
@@ -67,3 +67,35 @@ Les principales étapes ont été :
 - tests
 - documentation
 - installateur
+
+## Captures des interfaces
+
+### Connexion
+
+![Connexion](interface-connexion.png)
+
+### Accueil
+
+![Accueil](interface-accueil.png)
+
+### Gestion du personnel
+
+![Personnel](interface-personnel.png)
+
+### Gestion des absences
+
+![Absences](interface-absences.png)
+
+### Formulaire d'absence
+
+![Formulaire absence](interface-absence.png)
+
+## Organisation du code
+
+Le projet est rangé en plusieurs parties :
+
+- `Vue` : les fenêtres de l’application
+- `Controleur` : les traitements liés au personnel, aux absences et à la connexion
+- `Modele` : les classes utilisées dans le projet
+- `dal` : l’accès aux données
+- `bddmanager` : l’exécution des requêtes SQL
